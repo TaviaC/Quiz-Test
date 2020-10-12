@@ -38,3 +38,41 @@
 
 
 // End game// or //Restart//
+
+
+function enterName () {
+//User enters their name for User input
+console.log('enterName');
+};
+
+
+function scoreChart () {
+//Score chart to keep track of the scores
+console.log('scoreChart');
+}
+
+function questions () {
+//Question 1 populates on the screen
+console.log('question1');
+};
+
+function answers () {
+console.log('answers');
+//Answer populates on the screen, user chooses one, A,B,C,D
+
+
+
+
+
+
+
+};
+
+
+
+
+
+
+
+
+
