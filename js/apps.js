@@ -25,9 +25,6 @@ $(() => {
         }
 
         /// Tool function// making the answers slide down //
-        //w3schools.com//
-
-        $('.answers p').slideDown('slow');
-        $('.answers input[type="radio"]').click(function ()) 
+        
 
     })
