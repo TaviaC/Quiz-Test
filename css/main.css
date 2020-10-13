@@ -14,5 +14,18 @@ body{
 	padding-bottom: 40px;
 	width: 100%;
 }
-
+#playerGreeting {
+	text-shadow: 2px 2px #FF0000;
+	margin-bottom: 100px;
 }
+​
+h1 {
+	text-shadow: 2px 2px #FF0000;
+	margin-bottom: 50px;
+}
+h3 {
+	color: #fff;
+	font-size: 24px
+}
+
+
