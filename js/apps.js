@@ -33,4 +33,11 @@ $(() => {
    let answeredCorrectCount = $('.answers input[type="radio"]:checked[data-type="1"]').length;
     //How many answers that have the "data-type" attribute with the value of "1" are selected
 
+    if(type === 1) {
+        $('#resultsImage').html('<h3 class="correct">CORRECT!</h3><img src="https://media.gettyimages.com/photos/drake-attends-the-premiere-of-hbos-euphoria-at-the-cinerama-dome-on-picture-id1153778011?s=612x612">');
+
+        //if it is the correct answer meaning if the input with a data-type="1" was selected
+
+
+
     })
