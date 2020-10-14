@@ -28,4 +28,16 @@ h3 {
 	font-size: 24px
 }
 
+.incorrect {
+	color: red;
+}
+​
+.correct {
+	color: green;
+}
+​
+.answers p {
+	cursor: pointer;
+	display: none;
+}
 

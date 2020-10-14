@@ -31,7 +31,7 @@ $(() => {
         $('.answers p').slideDown('slow');
         $('.answers input[type="radio"]').click(function () {
    
-            // $(this) is just a short way of doing this $('.answers input[type="radio"]')
+// $(this) is just a short way of doing this $('.answers input[type="radio"]')
 //data('type') The value of the "data-type" attribute that is in the HTML
 //Youtube video//
         let type = $(this).data('type');
@@ -46,6 +46,8 @@ $(() => {
  //Select <div id="resultsImage"></div> by ID with Jquery and add this HTML inside of the element 
     } else {
         $('#resultsImage').html('<h3 class="incorrect">WRONG ANSWER TRY AGAIN</h3><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSCvOUtTeduswrWVzw1Mc0E3Uq9GfbSqIYk4Q&usqp=CAU">');
+
+
     }
 
 
