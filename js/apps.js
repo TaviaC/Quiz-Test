@@ -2,7 +2,7 @@
 
 //User lands on the website, the game pops up on the screen//
 //Storage  for user input//
-//User hits start button// //Tool//  - up to here
+//User hits start button// //Tool//  
 //User hits next button to go forth to the next question // No back button//
 //The questions appear, Question 1, Questioin 2, Question 3//
 //Answers a,b - choose the correct answer//
@@ -22,9 +22,14 @@ $(() => {
      if (person != null) {
             localStorage.setItem('playerName', person);
     ​
-            $("#playerGreeting").html('Welcome to the quiz! ' + localStorage.getItem('playerName'));
+            $("#playerGreeting").html('Welcome to the quiz! ' + 
+            localStorage.getItem('playerName'));
             $("#playerGreeting").fadeOut(5000);
         }
+    
+    ​// slide down tool for answers//
+        $('.answers p').slideDown('slow');
+        $('.answers input[type="radio"]').click(function () {
 
         let type = $(this).data('type');
     // $(this) is just a short way of doing this $('.answers input[type="radio"]')
@@ -36,7 +41,7 @@ $(() => {
     if(type === 1) {
         $('#resultsImage').html('<h3 class="correct">CORRECT!</h3><img src="https://media.gettyimages.com/photos/drake-attends-the-premiere-of-hbos-euphoria-at-the-cinerama-dome-on-picture-id1153778011?s=612x612">');
 
-        //if it is the correct answer meaning if the input with a data-type="1" was selected
+    //if it is the correct answer meaning if the input with a data-type="1" was selected
 
 
 
