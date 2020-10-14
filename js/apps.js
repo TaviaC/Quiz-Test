@@ -30,10 +30,11 @@ $(() => {
     ​// slide down tool for answers//
         $('.answers p').slideDown('slow');
         $('.answers input[type="radio"]').click(function () {
-
-        let type = $(this).data('type');
-    // $(this) is just a short way of doing this $('.answers input[type="radio"]')
+   
+            // $(this) is just a short way of doing this $('.answers input[type="radio"]')
 //data('type') The value of the "data-type" attribute that is in the HTML
+//Youtube video//
+        let type = $(this).data('type');
         
    let answeredCorrectCount = $('.answers input[type="radio"]:checked[data-type="1"]').length;
     //How many answers that have the "data-type" attribute with the value of "1" are selected
