@@ -15,16 +15,22 @@
 $(() => {
     ​//User lands on the website to the Quiz game// User enters their name
       var person = prompt('Please enter your name', 'Anonymous');
-    ​  //Storage  for user input// go to the console/ go to the application// you will see if this is storing the user input
+    ​  
+    //Storage  for user input// go to the console/ go to the application// you will see if this is storing the user input
      // w3schools.com//
-        if (person != null) {
+        
+     if (person != null) {
             localStorage.setItem('playerName', person);
     ​
             $("#playerGreeting").html('Welcome to the quiz! ' + localStorage.getItem('playerName'));
             $("#playerGreeting").fadeOut(5000);
         }
 
-        /// Tool function// making the answers slide down //
+        let type = $(this).data('type');
+    // $(this) is just a short way of doing this $('.answers input[type="radio"]')
+//data('type') The value of the "data-type" attribute that is in the HTML
         
+   let answeredCorrectCount = $('.answers input[type="radio"]:checked[data-type="1"]').length;
+    //How many answers that have the "data-type" attribute with the value of "1" are selected
 
     })
