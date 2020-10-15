@@ -28,7 +28,7 @@ body #quizContainer {
 }
 
 h3 {
-	color: #fff;
+	color: rgb(255, 255, 255);
 	font-size: 24px
 }
 
@@ -66,3 +66,4 @@ h3 {
 	height: 300px;
 	border: 2px solid #000;
 }
+
