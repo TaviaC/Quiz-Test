@@ -16,7 +16,7 @@ $(() => {
     ​//User lands on the website to the Quiz game// User enters their name
       var person = prompt('Please enter your name', 'Anonymous');
     ​  
-    //Storage  for user input// go to the console/ go to the application// you will see if this is storing the user input
+    //Storage  for user input // storing the user input
      // w3schools.com//
         
      if (person != null) {
