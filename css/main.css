@@ -37,14 +37,6 @@ h3 {
 	font-style: italic
 }
 
-​ .incorrect {
-	color: red;
-}
-
-​ .correct {
-	color: green;
-}
-
 ​ .answers p {
 	cursor: pointer;
 	display: none;
