@@ -44,13 +44,10 @@ $(() => {
         $('#resultsImage').html('<h3 class="correct">CORRECT!</h3><img src="https://media.gettyimages.com/photos/drake-attends-the-premiere-of-hbos-euphoria-at-the-cinerama-dome-on-picture-id1153778011?s=612x612">');
 
  //Select <div id="resultsImage"></div> by ID with Jquery and add this HTML inside of the element 
-    } else {
-        $('#resultsImage').html('<h3 class="incorrect">WRONG ANSWER TRY AGAIN</h3><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSCvOUtTeduswrWVzw1Mc0E3Uq9GfbSqIYk4Q&usqp=CAU">');
-
-        $('#results').html('<p>Score: ' + answeredCorrectCount + '</p>').show();
+  
 
     }
-    
+
 });
     });
 
