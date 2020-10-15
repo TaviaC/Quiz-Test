@@ -1,60 +1,69 @@
-body{
+body {
 	background: #000;
 	color: #fff;
 	font-family: sans-serif;
 	font-size: 20px;
 	text-align: center;
 }
-​
-#quizContainer {
+
+
+body #quizContainer {
 	/* background from https://cssgradient.io/ */
-	background: rgb(68, 63, 129);
-	background: radial-gradient(circle, rgba(23,22,37,1) 39%, rgba(0,0,0,0.4248074229691877) 100%, rgba(0,212,255,1) 100%);
+	background: rgb(23, 22, 37);
+	background: radial-gradient(circle, rgba(23, 22, 37, 1) 39%, rgba(0, 0, 0, 0.4248074229691877) 100%, rgba(0, 212, 255, 1) 100%);
 	margin: 0 auto;
 	padding-bottom: 40px;
 	width: 100%;
 }
 
-#playerGreeting {
+​ body #playerGreeting {
 	text-shadow: 2px 2px #FF0000;
+	color: red;
 	margin-bottom: 100px;
 }
-​
-h1 {
+
+​ h1 {
 	text-shadow: 2px 2px #FF0000;
 	margin-bottom: 50px;
 }
+
 h3 {
 	color: #fff;
 	font-size: 24px
 }
 
-.incorrect {
+​ .question h3 {
+	text-shadow: 2px 2px #0000FF;
+	font-style: italic
+}
+
+​ .incorrect {
 	color: red;
 }
-​
-.correct {
+
+​ .correct {
 	color: green;
 }
-​
-.answers p {
+
+​ .answers p {
 	cursor: pointer;
 	display: none;
 }
 
-#results {
+​ #results {
 	background: red;
 	border-radius: 5px;
 	color: #fff;
-    display: none;
+	display: none;
 	margin: 0 auto;
 	text-align: center;
 	width: 200px;
-    padding: 5px;
+	padding: 5px;
 }
-​
-#resultsImage img {
+
+​ #resultsImage img {
 	width: 300px;
 	height: 300px;
 	border: 2px solid #000;
 }
+COPY TO CLIPBOARD	 SELECT ALL

@@ -1,52 +1,47 @@
 <!DOCTYPE html>
-
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Quiz</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-        <link rel="stylesheet" href="css/main.css">
-        <script src="js/apps.js" async defer></script>
-    </head>
-   
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>Quiz</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+      <link rel="stylesheet" href="css/main.css">
+      <script src="js/apps.js" async defer></script>
+   </head>
    <body>
-        <div id='quizContainer'>
-            <h1>Quiz Challenge</h1>
-            <h2 id='playerGreeting'></h2>
-​
-            <div id="results"></div>
-            <div class="question">
-                <h3>How old is Drake?</h3>
-                    <div class="answers">
-                        <p>
-                            <input type="radio" name="q1" data-type="0">
-                            25 years old
-                        </p>
-                        <p>
-                            <input type="radio" name="q1" data-type="1">
-                            33 years old
-                        </p>
-                    </div>
-                </div>
-                        
-                <div class="question">
-                        <h3>Who was the 44th president of the US?</h3>
-                    <div class="answers">
-                        <p>
-                            <input type="radio" name="q2" data-type="1">
-                            Barack Obama
-                        </p>
-                        <p>
-                            <input type="radio" name="q2" data-type="0">
-                            Kanye West
-                        </p>
-                    </div>
-                </div>
-                <div id="resultsImage"></div>
+      <div id='quizContainer'>
+         <h1>Quiz Challenge</h1>
+         <h2 id='playerGreeting'></h2>
+         <div id="results"></div>
+         <div class="question">
+            <h3>How old is Drake?</h3>
+            <div class="answers">
+               <p>
+                  <input type="radio" name="q1" data-type="0">
+                  25 years old
+               </p>
+               <p>
+                  <input type="radio" name="q1" data-type="1">
+                  33 years old
+               </p>
             </div>
-    </body>
+         </div>
+         <div class="question">
+            <h3>Who was the 44th president of the US?</h3>
+            <div class="answers">
+               <p>
+                  <input type="radio" name="q2" data-type="1">
+                  Barack Obama
+               </p>
+               <p>
+                  <input type="radio" name="q2" data-type="0">
+                  Kanye
+               </p>
+            </div>
+         </div>
+         <div id="resultsImage"></div>
+      </div>
+   </body>
 </html>
-
