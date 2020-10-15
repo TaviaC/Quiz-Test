@@ -47,10 +47,10 @@ $(() => {
     } else {
         $('#resultsImage').html('<h3 class="incorrect">WRONG ANSWER TRY AGAIN</h3><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSCvOUtTeduswrWVzw1Mc0E3Uq9GfbSqIYk4Q&usqp=CAU">');
 
+        $('#results').html('<p>Score: ' + answeredCorrectCount + '</p>').show();
 
     }
-
-
+    
 });
     });
 
