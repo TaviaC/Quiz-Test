@@ -34,19 +34,7 @@ h3 {
 ​ .question h3 {
 	text-shadow: 2px 2px #0000FF;
 	font-style: italic
-}
 
-​ .incorrect {
-	color: red;
-}
-
-​ .correct {
-	color: green;
-}
-
-​ .answers p {
-	cursor: pointer;
-	display: none;
 }
 
 ​ #results {
