@@ -1,17 +1,3 @@
-//THINGS I WANT ON MY WEBSITE//
-
-//User lands on the website, the game pops up on the screen//
-//Storage  for user input//
-//User hits start button// //Tool//  
-//User hits next button to go forth to the next question // No back button//
-//The questions appear, Question 1, Questioin 2, Question 3//
-//Answers a,b - choose the correct answer//
-// Timer for the question & answers 3 seconds, Timer for next question // Tool//
-//If the answer is incorrect- the answer turns "RED"//
-// If the answer is correct- the answer turns "GREEN"//
-//Function for the score button//
-// End game// or //Restart//
-
 $(() => {
     ​//User lands on the website to the Quiz game// User enters their name
       var person = prompt('Please enter your name', 'Anonymous');
@@ -33,11 +19,19 @@ $(() => {
    
 // $(this) is just a short way of doing this $('.answers input[type="radio"]')
 //data('type') The value of the "data-type" attribute that is in the HTML
-//Youtube video//
+
         let type = $(this).data('type');
+        let answeredCorrectCount = $('.answers input[type="radio"]:checked[data-type="1"]').length;
+​
+        if(type === 1) {
+            $('#resultsImage').html('<h3 class="correct">CORRECT!</h3><img src="https://media.gettyimages.com/photos/drake-attends-the-premiere-of-hbos-euphoria-at-the-cinerama-dome-on-picture-id1153778011?s=612x612">');
+            } else {
+            $('#resultsImage').html('<h3 class="incorrect">WRONG ANSWER TRY AGAIN</h3><img src="https://www.gamegrin.com/assets/Uploads/_resampled/croppedimage640200-kanyemad.jpg">');
+        }
         
-
-
+        $('#results').html('<p>Score: ' + answeredCorrectCount + '</p>').show();
+​
+   
 });
     });
 
